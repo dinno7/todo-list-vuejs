@@ -1,0 +1,28 @@
+body.dark {
+  color: var(--white);
+  background: var(--black);
+}
+body.dark .contact li {
+  background-color: rgba(255, 255, 255, 0.829);
+}
+body.dark .contact li:hover {
+  transform: scale(1.2) !important;
+  background: var(--green);
+  box-shadow: 1px 3px 5px 3px rgba(0, 0, 0, 0.1);
+}
+body.dark a:not(:last-child)::after {
+  color: var(--white);
+}
+body.dark #nav a.router-link-exact-active,
+body.dark #nav a:hover {
+  color: var(--black);
+}
+body.dark #nav a {
+  color: var(--white);
+}
+body.dark .todo {
+  color: var(--gray);
+}
+body.dark .about p {
+  color: var(--white) !important;
+}
